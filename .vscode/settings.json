@@ -1,8 +1,0 @@
-{
-    "appService.zipIgnorePattern": [
-        "node_modules{,/**}",
-        ".vscode{,/**}"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/f5da0d5c-f317-4d6a-9a23-58ae666923ea/resourceGroups/rg-18052025/providers/Microsoft.Web/sites/vaio-18052025",
-    "appService.deploySubpath": "."
-}
