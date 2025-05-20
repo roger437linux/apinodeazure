@@ -13,3 +13,5 @@ docker login "Servidor-de-logon"
 docker build --tag "Servidor-de-logon"/"Nome-da-imagem:version" .
 
 docker push "Servidor-de-logon"/"Nome-da-imagem:version"
+
+docker run -d --rm --name apinode -p 3000:3000 "Servidor-de-logon"/"Nome-da-imagem:version"
