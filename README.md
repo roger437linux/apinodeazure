@@ -4,9 +4,9 @@
 
 git clone https://github.com/roger437linux/apinodeazure.git
 
-### Criar ACR [Azure container registry] para armazenar imagem Docker
+#### Criar ACR [Azure container registry] para armazenar imagem Docker
 
-### Habilitar Usuário administrador em Chaves de acesso
+#### Habilitar Usuário administrador em Chaves de acesso
 
 docker login "Servidor-de-logon"
 
