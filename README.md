@@ -10,8 +10,8 @@ git clone https://github.com/roger437linux/apinodeazure.git
 
 docker login "Servidor-de-logon"
 
-docker build --tag "Servidor-de-logon"/"Nome-da-imagem:version" .
+docker build --tag "Servidor-de-logon"/"nome-da-imagem:version" .
 
-docker push "Servidor-de-logon"/"Nome-da-imagem:version"
+docker push "Servidor-de-logon"/"nome-da-imagem:version"
 
-docker run -d --rm --name apinode -p 3000:3000 "Servidor-de-logon"/"Nome-da-imagem:version"
+docker run -d --rm --name apinode -p 3000:3000 "Servidor-de-logon"/"nome-da-imagem:version"
